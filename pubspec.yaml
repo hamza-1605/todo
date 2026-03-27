@@ -1,0 +1,43 @@
+name: todo
+description: "A ToDo app developed using MVVC Architecture."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  drift: ^2.0.0
+  drift_flutter: ^0.3.0
+  flutter_launcher_icons: ^0.14.4
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  provider: ^6.1.5
+
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+  drift_dev: ^2.0.0
+  build_runner: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+
+  fonts:
+    - family: Arimo
+      fonts:
+      - asset: assets/fonts/Arimo/Arimo-Regular.ttf
+      - asset: assets/fonts/Arimo/Arimo-Bold.ttf
+        weight: 700
