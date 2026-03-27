@@ -2,4 +2,4 @@
 
 ToDo App - My Flutter Project.
 
-This app is developed by following th MVVC Architecture.
+This app is developed by following the MVVC Architecture.
